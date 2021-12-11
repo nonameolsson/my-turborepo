@@ -1,6 +1,6 @@
-import styled from "styled-components";
+import tw from "twin.macro";
 
-export const StyledCard = styled.div`
-  padding: 1rem;
-  background: #cdcdcd;
+export const StyledCard = tw.div`
+  p-4
+  bg-gray-300
 `;
