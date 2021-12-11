@@ -1,20 +1,16 @@
-import { useState } from 'react'
-import logo from './logo.svg'
-import './App.css'
-import { Button } from '../../../packages/ui'
+import "./App.css";
+import { Button, Card } from "ui";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>Hello Vite + React!</p>
-        <Button />
+        <Button title="Button" />
+        <Card title="Title">Hello hello hello</Card>
       </header>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

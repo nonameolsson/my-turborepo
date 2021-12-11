@@ -9,6 +9,8 @@
     "module": "ESNext",
     "rootDir": "src",
     "outDir": "dist",
-    "jsx": "react"
+    "jsx": "react",
+    "removeComments": true,
+    "importHelpers": true,
   }
 }

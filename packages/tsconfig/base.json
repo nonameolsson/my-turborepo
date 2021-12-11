@@ -8,12 +8,17 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "inlineSources": false,
+    "removeComments": true,
+    "importHelpers": true,
     "isolatedModules": true,
     "noUnusedLocals": false,
     "noUnusedParameters": false,
     "preserveWatchOutput": true,
     "skipLibCheck": true,
-    "strict": true
+    "strict": true,
+    "paths": {
+      "ui/*": ["packages/ui/*"]
+    }
   },
   "exclude": ["node_modules"]
 }

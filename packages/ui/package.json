@@ -1,8 +1,8 @@
 {
   "name": "ui",
   "version": "1.0.0",
-  "main": "./Button.tsx",
-  "types": "./Button.tsx",
+  "main": "./index.ts",
+  "types": "./index.tsx",
   "license": "MIT",
   "dependencies": {
     "styled-components": "^5.3.3"
