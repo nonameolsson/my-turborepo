@@ -1,11 +1,10 @@
-import "./App.css";
-import { Button, Card } from "ui";
+import { Button, Card } from "../../../packages/ui/atoms";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>Hello Vite + React!</p>
+    <div className="bg-red-500 w-full h-full">
+      <header>
+        <p className="text-2xl">Hello Vite + React!</p>
         <Button title="Button" />
         <Card title="Title">Hello hello hello</Card>
       </header>

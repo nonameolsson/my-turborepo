@@ -5,9 +5,14 @@
   "types": "./index.tsx",
   "license": "MIT",
   "dependencies": {
-    "styled-components": "^5.3.3"
   },
   "devDependencies": {
-    "@types/styled-components": "^5.1.17"
+    "@types/styled-components": "^5.1.17",
+    "autoprefixer": "^9",
+    "postcss": "^7",
+    "prettier": "^2.5.1",
+    "styled-components": "^5.3.3",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
+    "twin.macro": "^2.8.2"
   }
 }
